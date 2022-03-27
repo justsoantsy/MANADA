@@ -17,6 +17,7 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Heroimg from '../../assets/pexels-kamaji-ogino-5067453_1.png'
+import Logo from '../../assets/MANADA.png'
 
 const features = [
   {
@@ -151,8 +152,8 @@ export default function Header() {
               <a href="#">
                 <span className="sr-only">Workflow</span>
                 <img
-                  className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                  className="h-px w-auto sm:h-6"
+                  src={Logo}
                   alt=""
                 />
               </a>
